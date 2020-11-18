@@ -45,4 +45,4 @@ jobs:
         # Override the default behavior so that the action doesn't attempt 
         # to auto-install Python dependencies
         setup-python-dependencies: false
-        queries: security-extended,security-and-quality,octo-org/python-qlpack/show_ifs.ql@main
+        queries: security-extended,security-and-quality
