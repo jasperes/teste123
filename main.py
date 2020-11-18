@@ -10,7 +10,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL")
 
 @app.route("/<name>", methods = ["GET"])
 def get_user(name):
-    result = db.session.execute("SELECT * FROM USER WHERE NAME = '" + name + "';")
+    result = db.session.execute("SELECT * FROM SECRETWEAPON WHERE NAME = '" + name + "';")
     return result
 
 if __name__ == "__main__":
