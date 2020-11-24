@@ -42,4 +42,4 @@ jobs:
       with:
         languages: python
         setup-python-dependencies: false
-        queries: security-extended,security-and-quality
+        #queries: security-extended,security-and-quality
